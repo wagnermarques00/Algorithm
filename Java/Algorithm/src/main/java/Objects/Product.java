@@ -1,4 +1,4 @@
-package Algorithm.LowestAndHigher.LowerAndHighestPriceWithObjects;
+package Objects;
 
 public class Product {
     private String name;

@@ -1,14 +1,16 @@
-package Algorithm.LowestAndHigher.LowerAndHighestPriceWithObjects;
+package Algorithm.LowestAndHigher;
+
+import Objects.Product;
 
 public class TestLowerAndHigherPriceObjects {
 
     public static void main(String[] args) {
         Product[] products = {
-                new Product("Lamborghini", 1000000.0),
-                new Product("Jeep", 46000.0),
-                new Product("Ford", 16000.0),
-                new Product("Smart", 46000.0),
-                new Product("Toyota", 17000.0)
+            new Product("Lamborghini", 1000000.0),
+            new Product("Jeep", 46000.0),
+            new Product("Ford", 16000.0),
+            new Product("Smart", 46000.0),
+            new Product("Toyota", 17000.0)
         };
 
         int lowestPrice = searchLowerValue(products, 0, 4);

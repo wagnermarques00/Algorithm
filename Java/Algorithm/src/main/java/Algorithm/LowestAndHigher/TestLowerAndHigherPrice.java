@@ -1,4 +1,4 @@
-package Algorithm.LowestAndHigher.LowerAndHigherPrice;
+package Algorithm.LowestAndHigher;
 
 public class TestLowerAndHigherPrice {
 	public static void main(String[] args) {
