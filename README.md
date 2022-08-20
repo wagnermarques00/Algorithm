@@ -14,5 +14,5 @@
 #### :man_technologist: **Studied algorithms**
 
 - Lowest and Highest
-- Sort (Insert Sort, Selection Sort)
+- Sort (Insertion Sort, Selection Sort)
 
