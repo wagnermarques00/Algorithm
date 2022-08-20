@@ -2,9 +2,9 @@ package Algorithm.Sorting;
 
 import Objects.Product;
 
-public class TestSorting {
+public class SelectionSorting {
     public static void main(String[] args) {
-        Product products[] = {
+        Product[] products = {
                 new Product("Lamborghini", 1000000.0),
                 new Product("Jeep", 46000.0),
                 new Product("Ford", 16000.0),
@@ -12,7 +12,11 @@ public class TestSorting {
                 new Product("Toyota", 17000.0)
         };
 
-        sortValue(products, products.length);
+        selectionSort(products, products.length);
+        printProducts(products);
+    }
+
+    private static void printProducts(Product[] products) {
         for(Product product : products) {
             System.out.println(product.getName() + " costs " + product.getPrice());
         }
@@ -29,15 +33,19 @@ public class TestSorting {
         return lowerValue;
     }
 
-    private static void sortValue(Product[] products, int quantityElements) {
+    private static void selectionSort(Product[] products, int quantityElements) {
         for(int actualValue = 0; actualValue < quantityElements -1; actualValue++) {
             int lowerValue = searchLowerValue(products, actualValue, products.length - 1);
 
-            Product actualProduct = products[actualValue];
-            Product lowerProduct = products[lowerValue];
-
-            products[actualValue] = lowerProduct;
-            products[lowerValue] = actualProduct;
+            changePosition(products, actualValue, lowerValue);
         }
+    }
+
+    private static void changePosition(Product[] products, int actualValue, int lowerValue) {
+        Product actualProduct = products[actualValue];
+        Product lowerProduct = products[lowerValue];
+
+        products[actualValue] = lowerProduct;
+        products[lowerValue] = actualProduct;
     }
 }
