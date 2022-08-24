@@ -6,7 +6,7 @@
 
 #### :computer: **Programming languages used so far:**
 
-- Java 4/4 
+- Java 
 - Portugol (written in Portuguese)
 
 
