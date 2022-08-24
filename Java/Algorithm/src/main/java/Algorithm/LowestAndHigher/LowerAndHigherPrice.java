@@ -2,7 +2,7 @@ package Algorithm.LowestAndHigher;
 
 import Objects.Product;
 
-public class TestLowerAndHigherPriceObjects {
+public class LowerAndHigherPrice {
 
     public static void main(String[] args) {
         Product[] products = {

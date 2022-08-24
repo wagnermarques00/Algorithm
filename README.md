@@ -6,13 +6,15 @@
 
 #### :computer: **Programming languages used so far:**
 
-- Java
+- Java 4/4 
 - Portugol (written in Portuguese)
 
 
 
 #### :man_technologist: **Studied algorithms**
 
-- Lowest and Highest
-- Sort (Insert Sort, Selection Sort)
+- Insertion Sort - 2/2 :white_check_mark:
+- Lowest and Highest - 2/2 :white_check_mark:
+- Merge Sort - 2/2 :white_check_mark:
+- Selection Sort - 2/2 :white_check_mark:
 
