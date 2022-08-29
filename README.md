@@ -1,8 +1,8 @@
 # Algorithm / Algoritmo
 
-README in English
+[Read in English](/README - EN.md)
 
-README em Português
+[Leia em Português](/README - PT-br.md)
 
 
 
