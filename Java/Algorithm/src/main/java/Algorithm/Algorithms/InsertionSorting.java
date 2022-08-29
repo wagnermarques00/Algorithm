@@ -1,6 +1,6 @@
-package Algorithm.Sorting;
+package Algorithm.Algorithms;
 
-import Objects.Product;
+import Algorithm.Objects.Product;
 
 public class InsertionSorting {
     public static void main(String[] args) {

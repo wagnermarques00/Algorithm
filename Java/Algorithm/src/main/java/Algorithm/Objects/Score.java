@@ -1,4 +1,4 @@
-package Objects;
+package Algorithm.Objects;
 
 public class Score {
     private String studentName;

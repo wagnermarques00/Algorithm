@@ -1,4 +1,4 @@
-package Objects;
+package Algorithm.Objects;
 
 public class Product {
     private String name;

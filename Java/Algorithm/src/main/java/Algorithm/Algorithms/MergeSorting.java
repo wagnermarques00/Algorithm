@@ -1,6 +1,6 @@
-package Algorithm.Sorting;
+package Algorithm.Algorithms;
 
-import Objects.Score;
+import Algorithm.Objects.Score;
 
 public class MergeSorting {
 

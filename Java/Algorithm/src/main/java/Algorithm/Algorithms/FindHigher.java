@@ -1,8 +1,8 @@
-package Algorithm.LowestAndHigher;
+package Algorithm.Algorithms;
 
-import Objects.Product;
+import Algorithm.Objects.Product;
 
-public class LowerAndHigherPrice {
+public class FindHigher {
 
     public static void main(String[] args) {
         Product[] products = {
@@ -13,30 +13,16 @@ public class LowerAndHigherPrice {
             new Product("Toyota", 17000.0)
         };
 
-        int lowestPrice = searchLowerValue(products, 0, 4);
         int highestPrice = searchHigherValue(products, 0, 4);
+        printResult(products, highestPrice);
+    }
 
-        System.out.println("Cheapest position: " + lowestPrice);
+    private static void printResult(Product[] products, int highestPrice) {
         System.out.println("Highest position: " + highestPrice);
-        System.out.println(
-            "The cheapest car is " + products[lowestPrice].getName() +
-            " and costs " + products[lowestPrice].getPrice()
-        );
         System.out.println(
                 "The highest car is " + products[highestPrice].getName() +
                         " and costs " + products[highestPrice].getPrice()
         );
-    }
-
-    private static int searchLowerValue(Product[] products, int start, int end) {
-        int lower = start;
-
-        for (int actualValue = start; actualValue <= end; actualValue++) {
-            if (products[actualValue].getPrice() < products[lower].getPrice()) {
-                lower = actualValue;
-            }
-        }
-        return lower;
     }
 
     private static int searchHigherValue(Product[] products, int start, int end) {
@@ -48,5 +34,5 @@ public class LowerAndHigherPrice {
             }
         }
         return higher;
-    }
+    }    
 }
