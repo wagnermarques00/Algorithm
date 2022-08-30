@@ -17,6 +17,7 @@
 - Count lower values - 2/2 :white_check_mark:
 - Highest value - 2/2 :white_check_mark:
 - Insertion sort - 2/2 :white_check_mark:
+- Linear search - 2/2 :white_check_mark:
 - Lowest value  - 2/2 :white_check_mark:
 - Merge sort - 2/2 :white_check_mark:
 - Pivot value - 2/2 :white_check_mark:
