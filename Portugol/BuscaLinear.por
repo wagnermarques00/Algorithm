@@ -1,10 +1,10 @@
-programa {
+programa {
 	
 	inclua biblioteca Util --> u
-	real valores[] = {10.0, 7.0, 6.7, 5.0, 4.0, 3.0, 9.0, 8.5, 9.3 }
+	real valores[] = {3.0, 4.0, 5.0, 6.7, 7.0, 8.5, 9.0, 9.3, 10.0 } //Considere que os elementos deste vetor foram previamente ordenados
 	real valorProcurar = 9.3
 	
-	funcao inicio() {
+	funcao inicio() {
 		inteiro numeroEncontrado = buscaLinear(0, u.numero_elementos(valores), valorProcurar)
 		imprimeResultado(valorProcurar, numeroEncontrado)
 	}
@@ -33,7 +33,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 875; 
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
