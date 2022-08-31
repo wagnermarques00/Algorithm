@@ -13,6 +13,7 @@
 
 #### :man_technologist: **Studied algorithms**
 
+- Binary search - 2/2 :white_check_mark:
 - Count higher values - 2/2 :white_check_mark:
 - Count lower values - 2/2 :white_check_mark:
 - Highest value - 2/2 :white_check_mark:

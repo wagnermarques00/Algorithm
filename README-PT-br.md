@@ -11,6 +11,7 @@
 
 #### :man_technologist: **Algoritmos estudados:**
 
+- Busca binária - 2/2 :white_check_mark:
 - Busca linear - 2/2 :white_check_mark:
 - Contar os maiores valores - 2/2 :white_check_mark:
 - Contar os menores valores - 2/2 :white_check_mark:
